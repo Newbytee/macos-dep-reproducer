@@ -1,0 +1,59 @@
+{
+    "name": "poetry-deps",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} altgraph importlib-metadata macholib packaging pefile pyinstaller pyinstaller-hooks-contrib pywin32-ctypes setuptools zipp"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/4d/3f/3bc3f1d83f6e4a7fcb834d3720544ca597590425be5ba9db032b2bf322a2/altgraph-0.17.4-py2.py3-none-any.whl",
+            "sha256": "642743b4750de17e655e6711601b077bc6598dbfa3ba5fa2b2a35ce12b508dff"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/c0/8b/d8427f023c081a8303e6ac7209c16e6878f2765d5b59667f3903fbcfd365/importlib_metadata-7.0.1-py3-none-any.whl",
+            "sha256": "4805911c3a4ec7c3966410053e9ec6a1fecd629117df5adee56dfc9432a1081e"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/d1/5d/c059c180c84f7962db0aeae7c3b9303ed1d73d76f2bfbc32bc231c8be314/macholib-1.16.3-py2.py3-none-any.whl",
+            "sha256": "0e315d7583d38b8c77e815b1ecbdbf504a8258d8b3e17b61165c6feb60d18f2c"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl",
+            "sha256": "8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/55/26/d0ad8b448476d0a1e8d3ea5622dc77b916db84c6aa3cb1e1c0965af948fc/pefile-2023.2.7-py3-none-any.whl",
+            "sha256": "da185cd2af68c08a6cd4481f7325ed600a88f6a813bad9dea07ab3ef73d8d8d6"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/1b/37/36a34274525c2a7aa22d914ea58419607d64224056e91b95b1529f7d9448/pyinstaller-6.4.0-py3-none-macosx_10_13_universal2.whl",
+            "sha256": "a2e63fa71784f290bbf79b31b60a27c45b17a18b8c7f910757f9474e0c12c95d"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/4b/aa/6a26a5dd0b42e69a6fea84329d1f218fec72e7c186030ba44efc94254e8a/pyinstaller_hooks_contrib-2024.1-py2.py3-none-any.whl",
+            "sha256": "131494f9cfce190aaa66ed82e82c78b2723d1720ce64d012fbaf938f4ab01d35"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/a4/bc/78b2c00cc64c31dbb3be42a0e8600bcebc123ad338c3b714754d668c7c2d/pywin32_ctypes-0.2.2-py3-none-any.whl",
+            "sha256": "bf490a1a709baf35d688fe0ecf980ed4de11d2b3e37b51e5442587a75d9957e7"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/55/3a/5121b58b578a598b269537e09a316ad2a94fdd561a2c6eb75cd68578cc6b/setuptools-69.0.3-py3-none-any.whl",
+            "sha256": "385eb4edd9c9d5c17540511303e39a147ce2fc04bc55289c322b9e5904fe2c05"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/d9/66/48866fc6b158c81cc2bfecc04c480f105c6040e8b077bc54c634b4a67926/zipp-3.17.0-py3-none-any.whl",
+            "sha256": "0e923e726174922dce09c53c59ad483ff7bbb8e572e00c7f7c46b88556409f31"
+        }
+    ]
+}
